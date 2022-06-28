@@ -189,6 +189,11 @@
 
 .principalIndex img{
     border-radius: 20px;
+    transition: all 1s;
+}
+
+.principalIndex img:hover{
+    transform: scale(1.01);
 }
 
 .imagenes {
