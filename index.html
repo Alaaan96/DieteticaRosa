@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital@1&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
@@ -11,7 +12,7 @@
     <title>Dietetica Rosa</title>
 </head>
 <body>
-   <nav class="navbar navbar-expand-lg  ">
+   <nav class="navbar navbar-expand-lg sticky-top  ">
        <div class="container-fluid ">
          <a class="navbar-brand" href="#"><img data-aos="fade-right" src="./assets/img/Logo bueno.png" alt=""></a>
          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,8 +45,8 @@
 
    <header>
         <div>
-            <div>
-                <h1 class="text-center">Dietetica Rosa</h1> 
+            <div class="tituloPrincipal">
+                <h1 class="tituloPrincipal text-center">Dietetica Rosa</h1> 
             </div>
             <div>
                 <h2 class="text-center">Lo mejor para una vida sana!</h2>
@@ -79,9 +80,9 @@
           <span class="visually-hidden">Next</span>
         </button>
         </div>
-        <div class="row justify-content-around mt-5 ">
+        <div class="carteles row justify-content-around mt-5 ">
             <div class="card text-bg-success mb-3 col-8 col-md-3">
-                <div class="card-header">Productos veganos</div>
+                <div class="veganos card-header">Productos veganos</div>
                 <div class="card-body">
                 <h5 class="card-title">Nuevos ingresos</h5>
                 <p class="card-text">Contamos con toda la variedad que necesitas</p>
@@ -106,33 +107,40 @@
    <aside>
         <div>
             <div class="text-center mt-4">
-                <h3>Buscas lo mejor para una vida sana?</h3>
-                <p>En dietetica Rosa tenemos todo lo que necesitas para eso!</p>
+                <h3 class="buscas">Buscas lo mejor para una vida sana?</h3>
+                <h5>En dietetica Rosa tenemos todo lo que necesitas para eso!</h5>
             <br>
             </div>
             <div class="row justify-content-around">
-                <img class="col-10 col-lg-5" src="./assets/img/ej 2.jpg" alt="">
+                <img class="profesionales col-10 col-lg-5" src="./assets/img/ej 2.jpg" alt="">
                 <h3 class="col-10 d-flex align-items-center text-center col-lg-5">Contamos con los mejores profesionales para asesorarte en tu busqueda</h3>
             </div>
         </div>
-        <div class="row">
+        <div class="productos">
+            <h2>Productos</h2>
+        </div>
+        <hr>
+        <div class="subtitulos row">
             <div class="d-flex flex-column col-12 col-lg-4 align-items-center mt-5">
                 <img class="uno" src="./assets/img/bebida resized.jpg" alt="">
-                <h4 class="text-center">BEBIDAS</h4>
+                <h4 class="text-center">• BEBIDAS •</h4>
+                <p class="">Variedad de bebidas para tu dia</p>
             </div>
-            <div class="d-flex flex-column col-12 col-lg-4 align-items-center mt-5">
+            <div class=" d-flex flex-column col-12 col-lg-4 align-items-center mt-5">
                 <img class="dos" src="./assets/img/galletitas resized.jpg" alt="">
-                <h4 class="text-center">GALLETITAS</h4>
+                <h4 class="text-center">• GALLETITAS •</h4>
+                <p>Todo tipo de variedades</p>
             </div>
             <div class="d-flex flex-column col-12 col-lg-4 align-items-center mt-5">
                 <img class="tres" src="./assets/img/sin tacc resized.jpg" alt="">
-                <H4 class="text-center">SIN TACC</H4>
+                <H4 class="text-center">• SIN TACC •</H4>
+                <p>Los mejores productos para celiacos</p>
             </div>
         </div>
    </aside>
    <footer class="mt-5">
         <div class="text-end">
-           <h5>©dietetica rosa, todos los derechos reservados</h5>
+           <h5 class="futer">©dietetica rosa, todos los derechos reservados</h5>
         </div>
    </footer>
    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
