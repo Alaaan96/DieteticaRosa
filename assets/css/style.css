@@ -1,97 +1,88 @@
-@import url('https://fonts.googleapis.com/css2?family=Tiro+Gurmukhi&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Tiro+Gurmukhi&display=swap");
 .navbar {
-    background-color: black;
+  background-color: black;
 }
 
 .body {
-    font-family: 'Cabin', sans-serif;
-}
-
-.tituloPrincipal h1{
-    color: #F181EB;
-}
-
-
-.buscas{
-    color: #F181EB;
-}
-
-.carteles {
-    font-size: 20px;
-}
-
-.productos {
-    margin-top: 60px;
-    margin-left: 50px;
-    font-size: 30px;
-    color: #F181EB;
-}
-
-
-
-.subtitulos p{
-    font-size: 22px;
-}
-
-.profesionales {
-    transition: all 1s;
-    border-radius: 20px;
-}
-
-
-.profesionales:hover {
-    transform: scale(1.01);
-}
-
-.subtitulos img {
-    transition: all 1s;
-    border-radius: 10px;
-}
-
-.subtitulos img:hover {
-    transform: scale(1.01);
-    box-shadow: 0 5px 15px rgba(0,0,0,0.3)
+  font-family: "Cabin", sans-serif;
 }
 
 .futer {
-    color: #F181EB;  
+  color: #F181EB;
+}
+
+.tituloPrincipal h1 {
+  color: #F181EB;
+}
+
+.buscas {
+  color: #F181EB;
+}
+
+.carteles {
+  font-size: 20px;
+}
+
+.productos {
+  margin-top: 60px;
+  margin-left: 50px;
+  font-size: 30px;
+  color: #F181EB;
+}
+
+.subtitulos p {
+  font-size: 22px;
+}
+
+.profesionales {
+  transition: all 1s;
+  border-radius: 20px;
+}
+.profesionales:hover {
+  transform: scale(1.01);
+}
+
+.subtitulos img {
+  transition: all 1s;
+  border-radius: 10px;
+}
+.subtitulos img:hover {
+  transform: scale(1.01);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 .productosTitulo {
-    color: #F181EB;
+  color: #F181EB;
 }
 
 .tituloImagenes {
-    color: #F181EB;
+  color: #F181EB;
 }
 
 .imagenPrincipal {
-    transition: all 1s;
+  transition: all 1s;
 }
-
 .imagenPrincipal:hover {
-    transform: scale(1.01);
-    filter: saturate(120%);
+  transform: scale(1.01);
+  filter: saturate(120%);
 }
 
 .imgProductos {
-    transition: all 1s;
+  transition: all 1s;
 }
-
 .imgProductos:hover {
-    transform: scale(1.01);
-    filter: saturate(120%);
-}
-
-.tituloQuienes {
-    color: #F181EB;
+  transform: scale(1.01);
+  filter: saturate(120%);
 }
 
 .tituloPreguntas {
-    color: #F181EB;
+  color: #F181EB;
+}
+
+.tituloQuienes {
+  color: #F181EB;
 }
 
 .tituloContactanos {
-    color: #F181EB;
-}
+  color: #F181EB;
+}/*# sourceMappingURL=style.css.map */

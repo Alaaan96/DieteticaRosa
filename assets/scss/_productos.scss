@@ -1,0 +1,24 @@
+.productosTitulo {
+    color: $colorPrimario;
+}
+
+.tituloImagenes {
+    color: $colorPrimario;
+}
+
+.imagenPrincipal {
+    transition: all 1s;
+    &:hover {
+        transform: scale(1.01);
+        filter: saturate(120%);
+    }
+}
+
+
+.imgProductos {
+    transition: all 1s;
+    &:hover {
+        transform: scale(1.01);
+        filter: saturate(120%);
+    }
+}

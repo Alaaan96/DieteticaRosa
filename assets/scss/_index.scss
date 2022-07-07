@@ -1,0 +1,37 @@
+.tituloPrincipal h1{
+    color: $colorPrimario;
+}
+
+.buscas{
+    color: $colorPrimario;
+}
+.carteles {
+    font-size: 20px;
+}
+.productos {
+    margin-top: 60px;
+    margin-left: 50px;
+    font-size: 30px;
+    color: $colorPrimario;
+}
+
+.subtitulos p{
+    font-size: 22px;
+}
+
+.profesionales {
+    transition: all 1s;
+    border-radius: 20px;
+    &:hover {
+        transform: scale(1.01);
+    }
+}
+
+.subtitulos img {
+    transition: all 1s;
+    border-radius: 10px;
+    &:hover {
+        transform: scale(1.01);
+        box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    }
+}
