@@ -51,6 +51,15 @@
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
+.btn, .btn-secundario, .btn-primario {
+  padding: 10px 15px;
+  border: 0;
+  border-radius: 5px;
+  width: 150px;
+  height: auto;
+  color: #fff;
+}
+
 .productosTitulo {
   color: #F181EB;
 }
@@ -85,4 +94,12 @@
 
 .tituloContactanos {
   color: #F181EB;
+}
+
+.btn-primario {
+  background-color: #F181EB;
+}
+
+.btn-secundario {
+  background-color: rgb(94, 17, 43);
 }/*# sourceMappingURL=style.css.map */

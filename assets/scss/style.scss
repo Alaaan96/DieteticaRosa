@@ -13,3 +13,12 @@
 @import "quienes";
 
 @import "contactanos";
+
+
+
+@each $key , $var in $colores {
+    .btn-#{$key} {
+        @extend .btn;
+        background-color: $var;
+    }   
+}

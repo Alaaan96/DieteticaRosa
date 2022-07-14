@@ -1,6 +1,30 @@
 $colorPrimario: #F181EB;
 
+$colores: (
+     primario: #F181EB,
+     secundario: rgb(94, 17, 43)
+);
+
+$tarjeta: (
+    margin: 60px,
+    marginl: 50px,
+    font: 30px,
+    color: #F181EB,
+);
+
+$btn: (
+    padding: 10px 15px,
+    borde: 0,
+    radio: 5px
+);
 
 .futer {
     color: $colorPrimario;  
+}
+
+@mixin propiedades($ancho,$alto,$colorLetra) {
+    width: $ancho;
+    height: $alto;
+    color: $colorLetra;
+    
 }
