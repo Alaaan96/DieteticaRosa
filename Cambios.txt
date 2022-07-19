@@ -1,0 +1,2 @@
+Se agregaron descripciones para todas las hojas, se aplico el uso de maps, extend y mixing.
+Faltan muchas modificaciones sobre todo a estilos
