@@ -1,11 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Tiro+Gurmukhi&display=swap");
+
 .navbar {
   background-color: black;
 }
 
-.body {
-  font-family: "Cabin", sans-serif;
+.cuerpo {
+  font-family: 'Kanit', sans-serif;
+
+
 }
+
 
 .futer {
   color: #F181EB;
@@ -82,6 +85,10 @@
 .imgProductos:hover {
   transform: scale(1.01);
   filter: saturate(120%);
+}
+
+.titulosProductos {
+  color: #F181EB;
 }
 
 .tituloPreguntas {
